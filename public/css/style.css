@@ -1,3 +1,38 @@
 body {
-  background-color: blue;
+  background-color: white;
+  font-family: 'Raleway Dots', cursive;
+  background-image: url('../uefa1.jpg') ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+#header {
+  position: fixed;
+  top: 30px;
+  left: 30px;
+  color: #ffbf00;
+  font-size: 80px;
+  text-align: center;
+  background-color: black;
+  border: dotted white;
+  width: 1200px;
+  height: 100px;
+  opacity: 0.7;
+  filter: alpha(opacity=30);
+}
+
+#fixtures {
+  position: fixed;
+  top: 150px;
+  left: 30px;
+  color: #ffbf00;
+  font-size: 50px;
+  text-align: center;
+  background-color: black;
+  border: dotted white;
+  width: 1200px;
+  height: 500px;
+  opacity: 0.7;
+  filter: alpha(opacity=30);
 }
